@@ -1,0 +1,27 @@
+{
+  "intents": [
+   
+    {
+      "intent": "LocationStatusEvent",
+      "slots": []
+    },
+    {
+      "intent": "LocationIntent",
+      "slots": [
+        {
+          "name": "LocationName",
+          "type": "LITERAL"
+        }
+      ]
+    },
+     {
+      "intent": "LocationAppointmentIntent",
+      "slots": [
+        {
+          "name": "boolYesNo",
+          "type": "LITERAL"
+        }
+      ]
+    },
+  ]
+ }
